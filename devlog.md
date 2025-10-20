@@ -37,6 +37,10 @@ Gotten good progress on the encryption and going to polish up later to finish up
 
 2025-10-19 10:25
 
-Started the driver and finished main: set up pipes, fork/dup2/exec for logger & encryption, basic menu + send/receive working. Ran into a problem where read was blocked until I closed unused pipe ends. Next session I will test the program for any problems.
+Started the driver (main) and finished main: set up pipes, fork/dup2/exec for logger & encryption, basic menu + send/receive working. Ran into a problem where read was blocked until I closed unused pipe ends. Next session I will test the program for any problems.
 
+
+2025-10-19 11:10 
+
+Finished all the code for the 3 files for the project and tested the program. Ran into some simple logistics errors, but other than that, the program was a success and ran smoothly. Met my Goals from my last session and will now plan to finish up the read me.
 
