@@ -11,11 +11,20 @@ I will implement the logger and validate its format and error handling. After th
 
   Driver: Interacts with the user to run the entire program using fork/pipe/dup2 in C/C++. Displays a menu, validates user input, sends commands to the encryption program, and logs every command and result
 
+
   
 2025-10-19 8:30 pm
 
 In this session, I will implement the logger in C++
 
 I will start by defining the command-line interface (logger <logfile>), validating that the logfile argument is present, and opening it in append mode. I will then write an initial [START] Logging Started entry, enter a read loop on stdin, and for each line, emit a single log record with a 24-hour timestamp, the action, and the remaining text as the message. I will flush after each write for real-time visibility. When the action is QUIT, I will record [QUIT] Logging Stopped, close the file, and exit.
+
+
+
+2025-10-19 9:20 pm
+
+I implemented the logger in C++ and met my last session goal of adding the functions and using the correct format. I encountered a problem where the first pass tokenized the entire line, losing the original spacing in MESSAGE, and had to adjust to only split at the first whitespace encountered. In the next session, I plan to refine the logger file and begin planning the encryption program.
+
+
 
 
