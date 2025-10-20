@@ -35,4 +35,5 @@ Polished up the logger and am getting started on the encryption program. Met my 
 
 Gotten good progress on the encryption and going to polish up later to finish up the main driver so I can test if the program runs and adjust the encryption and logger to run smoothly
 
-
+2025-10-19 10:25
+Started the driver and finished main: set up pipes, fork/dup2/exec for logger & encryption, basic menu + send/receive working. Ran into a problem where read was blocked until I closed unused pipe ends. Next session I will test the program for any problems.
